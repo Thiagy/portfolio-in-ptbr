@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link cdn font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!--Link cdn Animate On Scroll Library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!--Link cdn font size Poppins-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio | Thiago Rodrigues.</title>
+
+</head>
+<body>
+
+
+    <!--Navigation-->
+    <header id="idheader">
+
+        <div id="logo">Portfólio</div>
+
+        <nav id="box-nav">
+
+            <a href="#main-content" class="div_mirror" id="home-option">Home</a>
+            <a href="#about-me" class="div_mirror" id="about-me-option">Sobre</a>
+            <a href="#my-skills" class="div_mirror" id="skills-option">Habilidades</a>
+            <a href="#latest-projects" class="div_mirror" id="latest-projects-option">Projetos</a>
+            <a href="#education" class="div_mirror" id="education-option">Educação</a>
+
+        </nav>
+
+        <div id="box-nav-mobile">
+            <div class="litle-bar"></div>
+            <div class="litle-bar"></div>
+            <div class="litle-bar"></div>
+        </div>
+    </header>
+
+    <main>
+        <!--Main content-->
+        <section id="main-content" class="div-flex">
+
+            <div id="particles-js"></div>
+
+            <div class="main-text" data-aos="zoom-in-down" data-aos-duration="3000">
+
+                <h1>Olá, sou eu,</h1>
+                <h2>Thiago Rodrigues</h2>
+
+                <h2><span id="Im-a-developer-1"></span></h2>
+
+                <p id="myExperienceText-1"></p>
+                <br>
+                <p id="myExperienceText-2"></p>
+
+                <div class="box-button-read-more">
+                    <button id="btn-read-more-main-content">Ler mais</button>
+                </div>
+
+                <div id="box-social-media">
+                    <a href="https://www.linkedin.com/in/thiago-rodrigues-software/" target="_blank" class="box-icons div_mirror">
+                            <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Thiagy" target="_blank" class="box-icons div_mirror">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/thiagomamuty2019/" target="_blank" class="box-icons div_mirror">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="main-image" data-aos="zoom-in-down" data-aos-duration="2000">
+
+                <figure id="box-image" >
+                    <img src="imgs/eu.png" alt="Portfolio de Thiago rodrigues">
+                </figure>
+
+            </div>
+
+            <a href="" id="whatsapp-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </section>
+
+        <!--About me-->
+        <section id="about-me" class="div-flex">
+
+            <div class="main-text">
+
+                <h1>Sobre mim</h1>
+
+                <h2>Eu sou <span id="Im-a-developer-2"></span></h2>
+
+                <p id="about-me-text-1"></p>
+                <br>
+                <p id="about-me-text-2"></p>
+
+                <div class="box-button-read-more">
+                    <button id="btn-read-more-about-me">Ler mais</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--My Skills-->
+        <section id="my-skills">
+
+            <h1 id="my-skills-title" data-aos="fade-up" data-aos-duration="2000">Minhas <span>Habilidades.</span></h1>
+
+            <!--div div-flex-box-services-->
+            <div id="div-flex-box-my-skills">
+
+                <div id="skills-front-end" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                    <h3>Front-end<span>.</span></h3>
+
+                    <p class="technology" id="languages-front-end"></p><!--Front End Technology List.-->
+
+                </div>
+
+                <div id="skills-back-end" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                    <h3>Back-end<span>.</span></h3>
+
+                    <p class="technology" id="languages-back-end"></p><!--Back End Technology List.-->
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Latest Projects-->
+        <section id="latest-projects">
+
+            <h1 id="latest-projects-title" data-aos="fade-up" data-aos-duration="2000">Projetos <span>recentes</span></h1>
+
+            <!--Seta esquerda-->
+            <div id="left-ball-arrow" class="arrow-ball">
+                <div id="left-arrow" class="arrow"></div>
+            </div>
+
+            <!--div div-flex-box-latest-projects-->
+            <div id="div-flex-box-latest-projects">
+
+                <div id="scrollX_latest_projects">
+
+                    <!--Locate House project-->
+                    <div class="box-latest-projects" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                        <div class="div-project-image">
+                            <img src="imgs/projects-images/locate-hose-img.png" alt="Locate house">
+                        </div>
+
+                        <div class="div-project-text">
+                            <h2>Marketplace Locate House.</h2>
+                            <p>
+                                Neste mercado exclusivo de venda de casas, os indivíduos podem criar, editar e excluir contas de usuários. Eles podem inserir e-mail e senha para acesso e enviar solicitações de conexão a outras pessoas, promovendo a interatividade entre os usuários (funcionalidade semelhante ao envio de solicitações de amizade no Facebook).
+                            </p>
+                            <br>
+                            <p>
+                                Os usuários poderão postar, editar e excluir seus comentários nas listagens de imóveis exibidas em uma linha do tempo. Anunciantes e potenciais compradores podem ser encontrados por meio de uma barra de pesquisa, digitando seus nomes de usuário ou o nome da localidade (cidade, estado). Além desses recursos, a interação pode ser continuada de forma privada por meio de um chat.
+                            </p>
+
+                            <h4>Tecnologias:</h4>
+                            <p>Html, Css, Javascript, NodeJs , Express, MongoDB, WebSocket, Token, bcrypt.</p>
+                            <br>
+                            <p><span>Usuário:</span> alanturing123@gmail.com</p>
+                            <p><span>Senha:</span> Alanturing123@</p>
+                            
+                        </div>
+
+                        <a href="https://marketplace-locate-house.vercel.app/" target="_blank" class="link-project">
+                            <button>Link do Projeto</button>
+                        </a>
+
+                    </div>
+
+                    <!--Projeto restaurante Grilli-->
+                    <div class="box-latest-projects" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                        <div class="div-project-image">
+                            <img src="imgs/projects-images/restaurante-grilli .png" alt="restaurante Grilli">
+                        </div>
+
+                        <div class="div-project-text">
+                            <h2>Restaurante Grilli</h2>
+                            <p>Landing page de restaurante chamado Grilli.</p>
+                            <br>
+                            <h4>Tecnologias:</h4>
+                            <p>Html, css, Javascript</p>
+                        </div>
+
+                        <a href="https://restaurante-grilli.vercel.app/" target="_blank" class="link-project">
+                            <button>Link do Projeto</button>
+                        </a>
+
+                    </div>
+
+                    <!--Projeto de portfolio Thiago Rodrigues-->
+                    <div class="box-latest-projects" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                        <div class="div-project-image">
+                            <img src="imgs/projects-images/portifolio-thiago-rodrigues-matrix.png" alt="Portfolio Thiago Rodrigues">
+                        </div>
+
+                        <div class="div-project-text">
+                            <h2>Portfólio Thiago Rodrigues</h2>
+                            <p>Portfolio sobre mim com efeito Matrix.</p>
+                            <br>
+                            <h4>Tecnologias:</h4>
+                            <p>Html, css, Javascript and AOS</p>
+                        </div>
+
+                        <a href="https://portifolio-novo-eight.vercel.app/" target="_blank" class="link-project">
+                            <button>Link do Projeto</button>
+                        </a>
+
+                    </div>
+
+                    <!--Projeto de lading page Coffe-->
+                    <div class="box-latest-projects" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                        <div class="div-project-image">
+                            <img src="imgs/projects-images/coffe.png" alt="Cafeteria">
+                        </div>
+
+                        <div class="div-project-text">
+                            <h2>Coffe House</h2>
+                            <p>Landing page sobre Cafeteria.</p>
+                            <br>
+                            <h4>Tecnologias:</h4>
+                            <p>Html, css, Javascript</p>
+                        </div>
+
+                        <a href="https://landingpage-coffee-seven.vercel.app/" target="_blank" class="link-project">
+                            <button>Link do Projeto</button>
+                        </a>
+
+                    </div>
+
+                    <!--Projeto de landing page de academia Esparta.-->
+                    <div class="box-latest-projects" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                        <div class="div-project-image">
+                            <img src="imgs/projects-images/academia-image.png" alt="Academia Esparta">
+                        </div>
+
+                        <div class="div-project-text">
+                            <h2>Academia Esparta</h2>
+                            <p>Landing page sobre academia Esparta.</p>
+                            <br>
+                            <h4>Tecnologias:</h4>
+                            <p>Html, css, Javascript</p>
+                        </div>
+
+                        <a href="https://projeto-academia-delta.vercel.app/" target="_blank" class="link-project">
+                            <button>Link do Projeto</button>
+                        </a>
+
+                    </div>
+
+                    <!--Projeto de landing page-->
+                    <div class="box-latest-projects" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                        <div class="div-project-image">
+                            <img src="imgs/projects-images/salalo.png" alt="Beauty Salon">
+                        </div>
+
+                        <div class="div-project-text">
+                            <h2>Salão de beleza.</h2>
+                            <p>Landing page sobre salão de beleza.</p>
+                            <br>
+                            <h4>Tecnologias:</h4>
+                            <p>Html, css, Javascript</p>
+                        </div>
+
+                        <a href="https://ladingpage-salao-de-beleza.vercel.app/" target="_blank" class="link-project">
+                            <button>Link do Projeto</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Seta direita-->
+            <div id="right-ball-arrow" class="arrow-ball">
+                <div id="right-arrow" class="arrow"></div>
+            </div>
+
+        </section>
+
+        <!--Education-->
+        <section id="education">
+
+            <h1 id="education-title" data-aos="fade-up" data-aos-duration="2000">Formação</h1>
+
+           <div data-aos="zoom-in-up" data-aos-duration="2000">
+                <h2>Graduação<span>:</span></h2>
+                <p id="text-my-undergraduate-degree"></p>
+           </div>
+
+           <div data-aos="zoom-in-up" data-aos-duration="2000">
+                <h2>Pós-graduação<span>:</span></h2>
+                <p id="text-my-post-graduate"></p>
+            </div>
+
+            <div data-aos="zoom-in-up" data-aos-duration="2000">
+                <h2>Cursos Profissionalizantes<span>:</span></h2>
+                <p id="text-my-professional-courses"></p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        
+        <p id="myName">
+            Email: <span>thiagotx2019@gmail.com</span> <br>
+            Cel: <span>+55 64 996753372</span>
+        </p>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+      
+    <script src="src/headerScroll.js"></script>
+    <script src="src/mirror.js"></script>
+    <script src="src/readMore.js"></script>
+    <script src="src/menu.js"></script>
+    <script src="src/generationText1.js"></script>
+    <script src="src/generationText2.js"></script>
+    <script src="src/slider.js"></script>
+    <script src="src/redirectWhatsapp.js"></script>
+    <script src="src/particles.js"></script>
+
+</body>
+</html>
