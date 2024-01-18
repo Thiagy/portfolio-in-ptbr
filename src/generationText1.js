@@ -63,7 +63,7 @@ showTextEfect('about-me-text-1', firstTextAboutMe, 15, () => {
 //Generation Front End Technology List
 const FrontEndTechnologyList = [
 
-"HTML | CSS | Javascript | Java | Python | React | Angular | Typescript | Bootstrap | Tailwindcss | Bulma | Gimp | Gestão de Projetos de TI | Metodologia Ágil Scrum | Vercel | Netlify | Render | Git | GitHub."
+"HTML, CSS, Sass, Bootstrap, Bulma, Tailwindcss, Google Fonts, Font awesome, Animate On Scroll Library, React Icons, Javascript, Python, Java, React, Angular, TypeScript, Gimp, Git, Github, Vercel, Render, Netlify, Gestão de Projetos de TI, Metodologia Ágil Scrum."
 
 ];
 
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //Generation Back End Technology List
 const BackEndTechnologyList = [
 
-"NodeJs | Express | Api | Mongoose | Sequelize | Prisma | MongoDB | MySQL | PostgreSQL | WebSocket | Token | bcrypt."
+    "NodeJs, Express, Api, Websocket, Token, bcrypt, Mongoose, Sequelize, Prisma, MongoDB, MySQL, PostgreSQL."
 
 ];
 
