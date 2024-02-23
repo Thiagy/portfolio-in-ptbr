@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +13,11 @@
     <!--Link cdn font size Poppins-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!---->
+    <!--Particles.js-->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <link rel="stylesheet" href="style.css">
+
     <title>Meu Portfólio | Thiago Rodrigues.</title>
 
 </head>
@@ -44,7 +45,7 @@
             <div class="litle-bar"></div>
         </div>
     </header>
-
+    
     <main>
         <!--Main content-->
         <section id="main-content" class="div-flex">
@@ -191,6 +192,31 @@
                     <div class="box-latest-projects" data-aos="zoom-in-up" data-aos-duration="2000">
 
                         <div class="div-project-image">
+                            <img src="imgs/projects-images/print-supermercado-familia.png" alt="supermercado família com pagamento via pix">
+                        </div>
+
+                        <div class="div-project-text">
+
+                            <h2>Supermercado Família</h2>
+
+                            <p>
+                                Website de supermercado que permite fazer compras com pagamento via pix. Através de um comando de teclado(combinação secreta) o proprietário do mercado pode adicionar, alterar e excluir produtos. Com a adição de um nome produto o cliente é notificado sobre a novidade. Depois do pagamento efetuado o proprietário do mercado poderá acompanhar os pedidos feitos pelo cliente e se o pagamento foi efetuado.
+                            </p>
+                            <br>
+                            <h4>Tecnologias:</h4>
+                            <p>Html, css, Javascript, Nodejs, Nodemailer, Certbot, Efi(antiga gerencianet), Google Sheets Api, Mongoose, MongoDB.</p>
+                        </div>
+
+                        <a href="https://commerce-app-nine.vercel.app/" target="_blank" class="link-project">
+                            <button>Link do Projeto</button>
+                        </a>
+
+                    </div>
+
+                    <!--Projeto restaurante Grilli-->
+                    <div class="box-latest-projects" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                        <div class="div-project-image">
                             <img src="imgs/projects-images/restaurante-grilli .png" alt="restaurante Grilli">
                         </div>
 
@@ -324,7 +350,7 @@
         </section>
 
     </main>
-
+    <!--Footer-->
     <footer>
         
         <p id="myName">
@@ -334,6 +360,7 @@
 
     </footer>
 
+    <!--Animate On Scroll Library-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
