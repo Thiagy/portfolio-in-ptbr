@@ -161,6 +161,20 @@ section{
     height: 40px;
     width: 40px;
     cursor: pointer;
+    text-decoration: none;
+}
+.box-icons-curriculum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #01EEFE;
+    height: 40px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #01EEFE;
+    text-decoration: none;
+    font-size: 12px;
 }
 
 .box-icons i{
@@ -503,7 +517,21 @@ section{
 
     position: absolute;
     bottom: -50px;
+    border-radius: 16px;
+    animation: button_light 2s ease-in-out infinite;
 }
+
+@keyframes button_light{
+    0%, 100%{
+        box-shadow: 0 0 1px #fff, 0 0 3px #01EEFE;
+    }
+    50%{
+        box-shadow: 0 0 3px #fff, 0 0 5px #01EEFE;
+    }
+    
+    
+}
+
 
 .link-project button{
 
