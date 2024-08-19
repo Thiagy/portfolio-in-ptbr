@@ -26,7 +26,7 @@ var num = 0
 // Função para ir para a próxima imagem
 function goToNextImage(){
 
-    if (num < (11 - numberProductVizible)) {
+    if (num < (12 - numberProductVizible)) {
   
       num += 1;
   
@@ -58,7 +58,7 @@ function goToPreviousImage(){
 // Função para atualizar a navegação das setas
 function updateArrowNavigation(){
 
-    if (num >= (11 - numberProductVizible)) {
+    if (num >= (12 - numberProductVizible)) {
 
         right_arrow.style.boxShadow = 'inset 3px 3px gray';
 
